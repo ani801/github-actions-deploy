@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World, This is my first containerized Node.js application!");
 });
 
 app.listen(3000, () => {
